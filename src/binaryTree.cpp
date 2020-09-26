@@ -1,4 +1,4 @@
-#include "binaryTree.hpp"
+#include "../include/binaryTree.hpp"
 
 Node::Node(int val) : m_val(val) { }
 

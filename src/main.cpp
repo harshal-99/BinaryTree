@@ -1,4 +1,4 @@
-#include "binaryTree.hpp"
+#include "../include/binaryTree.hpp"
 
 
 int main() {
