@@ -18,11 +18,13 @@ private:
 	void inOrder(Node* root);
 	void preOrder(Node* root);
 	void postOrder(Node* root);
+	bool search(Node* root,int val);
 public:
 	BinaryTree() = default;
 	void insert(int val);
 	void inOrder();
 	void preOrder();
 	void postOrder();
+	bool search(int val);
 };
 #endif //BINARYTREE_BINARYTREE_HPP
