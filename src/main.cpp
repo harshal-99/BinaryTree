@@ -8,11 +8,13 @@ int main() {
 	b.insert(99);
 	b.insert(-1);
 	b.insert(2);
-	std::cout << "In Order Traversal  : ";
-	b.inOrder();
-	std::cout << "\nPre Order Traversal : ";
-	b.preOrder();
-	std::cout << "\nPost Order Traversal: ";
-	b.postOrder();
+	std::cout << std::boolalpha << b.search(1);
+	std::cout << " " << b.search(2);
+//	std::cout << "In Order Traversal  : ";
+//	b.inOrder();
+//	std::cout << "\nPre Order Traversal : ";
+//	b.preOrder();
+//	std::cout << "\nPost Order Traversal: ";
+//	b.postOrder();
 }
 
