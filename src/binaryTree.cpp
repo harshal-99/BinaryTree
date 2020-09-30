@@ -53,3 +53,15 @@ void BinaryTree::postOrder(Node *root) {
 	postOrder(root->right);
 	std::cout << root->m_val << " ";
 }
+
+bool BinaryTree::search(int val) {
+	return search(m_root,val);
+}
+
+bool BinaryTree::search(Node *root, int val) {
+	if(root not_eq nullptr) {
+		search(root->left, val);
+		if(root->m_val == val) return true;
+		search(root->right, val);
+	}
+}
